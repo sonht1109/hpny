@@ -1,0 +1,36 @@
+*{padding:0; margin: 0;}
+
+html, body, .banner{
+    width: 100%;
+    height: 100%;
+    font-family: 'quicksand';
+    color: #fbdda7;
+    user-select: none;
+}
+
+.banner{
+    background: url("1.jpg") no-repeat center black;
+    position: relative;
+}
+
+p{
+    position: absolute;
+    bottom: 26%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    padding: 16px 14px;
+    border-top: 3px solid #fbdda7;
+    border-bottom: 3px solid #fbdda7;
+    transform: translateX(-50%);
+    letter-spacing: 5px;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    color: #fbdda7;
+}
